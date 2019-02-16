@@ -12,13 +12,13 @@ function generateIdea() {
     var roll2 = randInt(0, 5);
     document.getElementById("form1").innerHTML = wordBank1[roll1];
     document.getElementById("form2").innerHTML = wordBank2[roll2];
+
     var ideaGenerated = wordBank1[roll1] + " for " + wordBank2[roll2];
     updateArray(previousSuggestions, ideaGenerated);
     print(previousSuggestions);
 }
 
 function updateArray(a, gen){
-    
     a[count % 10]=gen;
     count=count+1;
 }
