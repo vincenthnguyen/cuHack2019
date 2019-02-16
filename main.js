@@ -15,13 +15,12 @@ function generateIdea() {
     document.getElementById("form1").innerHTML = wordBank1[roll1];
     document.getElementById("form2").innerHTML = wordBank2[roll2];
     document.getElementById("form3").innerHTML = wordBank3[roll3];
-    var ideaGenerated = wordBank1[roll1] + wordBank2[roll2] + wordBank3[roll3];
+    var ideaGenerated = wordBank1[roll1] + " " + wordBank2[roll2] + " " + wordBank3[roll3];
     updateArray(previousSuggestions, ideaGenerated);
     print(previousSuggestions);
 }
 
-function updateArray(a, gen){
-    
+function updateArray(a, gen){  
     a[count % 10]=gen;
     count=count+1;
 }
