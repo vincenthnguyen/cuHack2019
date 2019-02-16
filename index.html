@@ -2,17 +2,37 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>CuHacking 2019</title>
+        <title>CUHacking 2019</title>
         <script>
-            function myFunc() {
+            function generateIdea() {
                 document.getElementById("demo").innerHTML = "Hack your grandparents."
             }
         </script>
     </head>
 
     <body>
-        <h1>CuHacking 2019 Hackathon Idea Generator</h1>
-        <p id = "demo">Push the button to generate an idea!</p>
-        <button type="button" onclick="myFunc()">Generate Idea!</button>
+        <div class="headers">
+
+            <div class="title">
+                <h1>CuHacking 2019 Hackathon Idea Generator</h1>
+            </div>
+
+            <div class="header">
+                <h2>Push the button to generate an idea!</h2>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <p>Hack</p>
+            <p id="form1">ChatApp</p>
+            <p>for</p>
+            <p id="form2">Grandparents</p>
+
+            <div class="button">
+                <button type="button" onclick="generateIdea()">Generate Idea!</button>
+            </div>
+
+        </div>
     </body>
 </html>
