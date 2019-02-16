@@ -2,17 +2,52 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>CuHacking 2019</title>
+        <title>CUHacking 2019</title>
         <script>
-            function myFunc() {
-                document.getElementById("demo").innerHTML = "Hack your grandparents."
+
+            var wordBank1 = ["Chat App", "Dating App", "Website", "Platformer Game", "Shooter Game"]
+            var wordBank2 = ["Kids", "Teens", "Students", "Grandparents", "Parents"]
+
+            function randInt(min, max) {
+                return Math.floor(Math.random() * (max - min) ) + min;
             }
+
+            function generateIdea() {
+                var roll1 = randInt(0, 5)
+                var roll2 = randInt(0, 5)
+                document.getElementById("form1").innerHTML = wordBank1[roll1]
+                document.getElementById("form2").innerHTML = wordBank2[roll2]
+            }
+
         </script>
     </head>
 
     <body>
-        <h1>CuHacking 2019 Hackathon Idea Generator</h1>
-        <p id = "demo">Push the button to generate an idea!</p>
-        <button type="button" onclick="myFunc()">Generate Idea!</button>
+        <div class="headers">
+
+            <div class="title">
+                <h1>CuHacking 2019 Hackathon Idea Generator</h1>
+            </div>
+
+            <div class="header">
+                <h2>Push the button to generate an idea!</h2>
+            </div>
+
+        </div>
+
+        <div class="main">
+
+            <div class="text">
+                <p>Hack</p>
+                <p id="form1">ChatApp</p>
+                <p>for</p>
+                <p id="form2">Grandparents</p>
+            </div>
+
+            <div class="button">
+                <button type="button" onclick="generateIdea()">Generate Idea!</button>
+            </div>
+
+        </div>
     </body>
 </html>
