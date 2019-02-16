@@ -1,7 +1,17 @@
 body{
     height: 100vh;
-    width:100vh;
+    width: 100vh;
 
-    background-color: red;
-    background-image: linear-gradient(to right , #FDC830,  #F37335); 
+    background-color: blue;
+    background-image: linear-gradient(to right , #FDC830,  #F37335);
+}
+
+.Logo > img {
+  width: 10%;
+  height: auto;
+}
+
+.Logo{
+  width: 100vh;
+  height: 100vh;
 }
