@@ -1,5 +1,5 @@
 var wordBank1 = ["Chat App", "Dating App", "Website", "Platformer Game", "Shooter Game"];
-var wordBank2 = ["Teens", "Students", "Grandparents", "Parents"];
+var wordBank2 = ["Kids", "Teens", "Students", "Grandparents", "Parents"];
 var previousSuggestions = [];
 var count = 0;
 
