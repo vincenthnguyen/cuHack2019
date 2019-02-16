@@ -1,19 +1,45 @@
+
 body{
+    margin: 0;
     height: 100vh;
     width: 100vh;
+    
 
 
     /*background-color: #0083B0;*/
    background-image: linear-gradient(to bottom right , #3494E6 ,#EC6EAD);
 }
 
+
+
 .Logo > img {
   width: 10%;
   height: auto;
+  
 }
 
 .Logo{
-  width: 100vh;
-  height: 100vh;
+
+    padding: 0px;
+    margin: 0;
+    border: 1px solid red; 
+
+
 }
 
+.title{
+    white-space: nowrap;
+    width: 100vh;
+    height:20vh;
+
+    
+}
+
+.title > h1{
+    font-size:3.5vw;
+    left: 40%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Calibri', sans-serif;
+    position: relative;
+}
