@@ -21,7 +21,6 @@ function generateIdea() {
 }
 
 function updateArray(a, gen){
-    
     a[count % 10]=gen;
     count=count+1;
 }
