@@ -20,8 +20,6 @@ body{
 
 .Logo{
 
-    padding: 0px;
-    margin: 0;
     border: 1px solid red; 
 
 
@@ -29,14 +27,15 @@ body{
 
 .title{
     white-space: nowrap;
-    width: 100vh;
-    height:20vh;
+    /*width: 100vh;*/
+   /* height:20vh;*/
 
     
 }
 
 .title > h1{
     font-size:3.5vw;
+    text-align: 50%;
     left: 40%;
     color: white;
     font-weight: bold;
