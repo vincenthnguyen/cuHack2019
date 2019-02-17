@@ -69,14 +69,14 @@ body{
     top: 30%;
 }
 
-.text{
+.idea{
     position: relative;
     font-size: 2vw;
     text-align: center;
   
 }
 
-.text > p1{
+.idea > p1{
     position: absolute;
     color:white;
     font-family: 'Verdana', sans-serif;
@@ -84,7 +84,7 @@ body{
     top: 50vh;
 }
 
-.text > p2{
+.idea > p2{
     position: absolute;
     color:white;
     font-family: 'Verdana', sans-serif;
@@ -92,7 +92,7 @@ body{
     top: 50vh;
 }
 
-.text > p3{
+.idea > p3{
     position: absolute;
     color:white;
     font-family: 'Verdana', sans-serif;
@@ -100,7 +100,7 @@ body{
     top: 50vh;
 }
 
-.text > p4{
+.idea > p4{
     position: absolute;
     color:white;
     font-family: 'Verdana', sans-serif;
