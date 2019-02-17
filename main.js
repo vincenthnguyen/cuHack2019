@@ -1,6 +1,8 @@
-var wordBank1 = ["Chat", "Dating", "Social", "Social Media", "Gaming", "Environmental", "Sports", "Tracking"];
+var wordBank1 = ["Chat", "Dating", "Social", "Social Media", "Gaming", "Environmental", "Sports",
+                "Tracking", "Messaging", "Life", "Music", "Animal", "Party", "Shopping", "Food",
+                "Snack", "Platforming"];
 var wordBank2 = ["Android App", "Website", "Platform", "Game", "iOS App", "Web App", "Simulator"]
-var wordBank3 = ["for", "and", "but for", "with", "without", "after", "through"];
+var wordBank3 = ["for", "and", "but for", "with", "without", "through"];
 var wordBank4 = ["Kids", "Teens", "Students", "Grandparents", "Parents", "Gamers", "Musicians",
                 "Professionals", "Farmers", "Doctors", "Streamers", "YouTubers", "Preschoolers"];
 var previousSuggestions = [];
@@ -11,20 +13,29 @@ function randInt(min, max) {
 }
 
 function generateIdea() {
+    updateArray(previousSuggestions, rollIdeas());
+
+    while (previousSuggestions[count%10] === previousSuggestions[count-1%10]){
+        previousSuggestions[count] = rollIdeas()
+    }
+    print(previousSuggestions);
+}
+
+function rollIdeas(){
     var roll1 = randInt(0, wordBank1.length);
     var roll2 = randInt(0, wordBank2.length);
     var roll3 = randInt(0, wordBank3.length);
     var roll4 = randInt(0, wordBank4.length);
+    
     document.getElementById("form1").innerHTML = wordBank1[roll1];
     document.getElementById("form2").innerHTML = wordBank2[roll2];
     document.getElementById("form3").innerHTML = wordBank3[roll3];
     document.getElementById("form4").innerHTML = wordBank4[roll4];
-    var ideaGenerated = wordBank1[roll1] + " " + wordBank2[roll2] + " " + wordBank3[roll3] + " " + wordBank4[roll4];
-    updateArray(previousSuggestions, ideaGenerated);
-    print(previousSuggestions);
+
+    return wordBank1[roll1] + " " + wordBank2[roll2] + " " + wordBank3[roll3] + " " + wordBank4[roll4];
 }
 
-function updateArray(a, gen){  
+function updateArray(a, gen){
     a[count % 10]=gen;
     count=count+1;
 }
