@@ -2,7 +2,7 @@ var wordBank1 = ["Chat", "Dating", "Social", "Social Media", "Gaming", "Environm
                 "Tracking", "Messaging", "Life", "Music", "Animal", "Party", "Shopping", "Food",
                 "Snack", "Platforming", "Election", "News", "TV", "Adventure", "Video"];
 var wordBank2 = ["Android App", "Website", "Platform", "Game", "iOS App", "Web App", "Simulator"]
-var wordBank3 = ["for", "and", "but for", "with", "without"];
+var wordBank3 = ["for", "but for", "with", "without"];
 var wordBank4 = ["Kids", "Teens", "Students", "Grandparents", "Parents", "Gamers", "Musicians",
                 "Professionals", "Farmers", "Doctors", "Streamers", "YouTubers", "Preschoolers"];
 var previousSuggestions = [];
