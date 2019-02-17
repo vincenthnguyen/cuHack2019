@@ -14,10 +14,19 @@ body{
 
 .Logo > img {
     position: absolute;
-  width: 7%;
+  width: 5%;
   height: auto;
-  top: 3%;
-  left: 6%
+  top: 8%;
+  left: 8%
+  
+}
+
+.Logo1 > img {
+    position: absolute;
+  width: 25%;
+  height: auto;
+  top: 25%;
+  left: 40%
   
 }
 
@@ -26,7 +35,7 @@ body{
     position: absolute;
   
     width: 100%;
-    top:3%;
+    top:5%;
     left: 2%;
     /*border: 1px solid red; */
     text-align: center;
@@ -56,16 +65,17 @@ body{
 
 
 .instruction > h2{
-    font-size: 1vw;
+    font-size: 2vw;
     color:white;
     font-family: 'Verdana', sans-serif;
 
 }
 
 .button{
+    background-color: red;
+        cursor:pointer;
+    overflow: hidden; 
     position: absolute;
-    width: 10%;
-    height: 25%;
     left: 45%;
     top: 33%;
 }
@@ -137,5 +147,83 @@ body{
     left: 40vw;
 }
 
+.names{
+    position: relative;
+    color: white;
+    font-family: 'Verdana', sans-serif;
+    white-space: nowrap;
+}
 
+.names > p1{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 85vh;
+    left: 10vw;
+}
+
+.names > p2{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 85vh;
+    left: 35vw;
+}
+
+.names > p3{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 85vh;
+    left: 60vw;
+}
+
+.names > p4{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 85vh;
+    left: 80vw;
+}
+
+.tab{
+    position: relative;
+    color:white;
+    font-family: 'Verdana', sans-serif;
+    
+}
+
+.tab2{
+    position: relative;
+    color:white;
+    font-family: 'Verdana', sans-serif;
+    
+}
+
+.tab3{
+    position: relative;
+    color:white;
+    font-family: 'Verdana', sans-serif;
+    
+}
+
+.tab > a{
+    position: absolute; 
+    font-size: 1.3vw;
+    left: 1vw;
+}
+
+.tab2 > a{
+    position: absolute; 
+    font-size: 1.3vw;
+    left:7vw;
+}
+
+.tab3 > a{
+    position: absolute; 
+    font-size: 1.3vw;
+    left: 21vw;
+}
+
+a:visited { text-decoration: none; color:white; }
+a:hover {  cursor: pointer; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { cursor:pointer; color:white }
+a, u {text-decoration: none;}
 
