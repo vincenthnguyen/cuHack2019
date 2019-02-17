@@ -4,6 +4,7 @@ body{
     margin:0 auto;
     height: 100vh;
     width: 100vw;
+    overflow:hidden;
     
     /*background-color: #0083B0;*/
    background-image: linear-gradient(to bottom right , #3494E6 ,#EC6EAD);
@@ -45,17 +46,17 @@ body{
 
 }
 
-.header{
+.instruction{
     position: absolute;
     text-align: center;
     width: 100%;
-    top:15%;
+    top:20%;
     
 }
 
 
-.header > h2{
-    font-size: 1.8vw;
+.instruction > h2{
+    font-size: 1vw;
     color:white;
     font-family: 'Verdana', sans-serif;
 
@@ -66,13 +67,14 @@ body{
     width: 10%;
     height: 25%;
     left: 45%;
-    top: 30%;
+    top: 33%;
 }
 
 .idea{
     position: relative;
     font-size: 2vw;
     text-align: center;
+    top: 40vh;
   
 }
 
@@ -80,24 +82,24 @@ body{
     position: absolute;
     color:white;
     font-family: 'Verdana', sans-serif;
-    left: 30vw;
-    top: 50vh;
+    left: 15vw;
+   
 }
 
 .idea > p2{
     position: absolute;
     color:white;
     font-family: 'Verdana', sans-serif;
-    left: 36vw;
-    top: 50vh;
+    left: 24vw;
+  
 }
 
 .idea > p3{
     position: absolute;
     color:white;
     font-family: 'Verdana', sans-serif;
-    left: 55vw;
-    top: 50vh;
+    left: 45vw;
+ 
 }
 
 .idea > p4{
@@ -105,5 +107,35 @@ body{
     color:white;
     font-family: 'Verdana', sans-serif;
     left: 60vw;
-    top: 50vh;
+   
 }
+
+.idea >p5{
+    position: absolute;
+    color:white;
+    font-family: 'Verdana', sans-serif;
+    left: 70vw;
+   
+}
+
+.suggestions{
+    position: relative;
+    color: white;
+    font-family: 'Verdana', sans-serif;
+}
+
+.suggestions > h3{
+    position: absolute;
+    font-size: 1.5vw;
+    top: 50vh;
+    left: 5vw;
+}
+
+.suggestions > p {
+    position: absolute;
+    top: 50vh;
+    left: 40vw;
+}
+
+
+
