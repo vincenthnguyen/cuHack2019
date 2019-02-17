@@ -60,3 +60,50 @@ body{
     font-family: 'Verdana', sans-serif;
 
 }
+
+.button{
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    left: 45%;
+    top: 30%;
+}
+
+.text{
+    position: relative;
+    font-size: 2vw;
+    text-align: center;
+  
+}
+
+.text > p1{
+    position: absolute;
+    color:white;
+    font-family: 'Verdana', sans-serif;
+    left: 30vw;
+    top: 50vh;
+}
+
+.text > p2{
+    position: absolute;
+    color:white;
+    font-family: 'Verdana', sans-serif;
+    left: 36vw;
+    top: 50vh;
+}
+
+.text > p3{
+    position: absolute;
+    color:white;
+    font-family: 'Verdana', sans-serif;
+    left: 55vw;
+    top: 50vh;
+}
+
+.text > p4{
+    position: absolute;
+    color:white;
+    font-family: 'Verdana', sans-serif;
+    left: 60vw;
+    top: 50vh;
+}
