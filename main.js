@@ -45,3 +45,7 @@ function print(suggestions){
     printedArray += "\n";
     document.getElementById("previousSuggestions").innerHTML = printedArray;
 }
+
+function backHome() {
+    window.location.href="index.html";
+}
