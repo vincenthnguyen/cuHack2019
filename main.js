@@ -1,6 +1,6 @@
 var wordBank1 = ["Chat", "Dating", "Social", "Social Media", "Gaming", "Environmental", "Sports",
                 "Tracking", "Messaging", "Life", "Music", "Animal", "Party", "Shopping", "Food",
-                "Snack", "Platforming"];
+                "Snack", "Platforming", "Election", "News", "TV", "Adventure"];
 var wordBank2 = ["Android App", "Website", "Platform", "Game", "iOS App", "Web App", "Simulator"]
 var wordBank3 = ["for", "and", "but for", "with", "without", "through"];
 var wordBank4 = ["Kids", "Teens", "Students", "Grandparents", "Parents", "Gamers", "Musicians",
@@ -26,7 +26,7 @@ function rollIdeas(){
     var roll2 = randInt(0, wordBank2.length);
     var roll3 = randInt(0, wordBank3.length);
     var roll4 = randInt(0, wordBank4.length);
-    
+
     document.getElementById("form1").innerHTML = wordBank1[roll1];
     document.getElementById("form2").innerHTML = wordBank2[roll2];
     document.getElementById("form3").innerHTML = wordBank3[roll3];
