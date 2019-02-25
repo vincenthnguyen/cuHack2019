@@ -1,6 +1,6 @@
 
 qnttyLetters = []
-var exp = document.getElementById("expression");
+var exp = document.forms[0];
 
 for(var i = 1; l = exp; i < l){
 
